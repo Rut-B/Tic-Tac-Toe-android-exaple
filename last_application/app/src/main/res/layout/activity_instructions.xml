@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5DFDF"
+    android:orientation="vertical"
+    tools:context=".InstructionsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="INSTRUCTIONS"
+        android:textColor="#0B2161"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@android:color/white"
+        android:padding="2dp"
+        android:text="Tic-tac-toe (also known as noughts and crosses or Xs and Os)\n is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid.\n\nThe player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.\n\n[https://en.wikipedia.org/wiki/Tic-tac-toe]\n\nEnjoy!\n\n"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="startPlay"
+        android:text="start play!"
+        android:textColor="#0B2161"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
